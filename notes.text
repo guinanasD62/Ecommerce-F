@@ -1,0 +1,92 @@
+https://www.youtube.com/watch?v=b8ZUb_Okxro&list=WL&index=2&t=475s
+
+npm init -y
+
+npm install -D typescript
+
+npm i ts-node
+
+npm i -D nodemon
+
+tsconfig.json  -paste
+
+nodemon.json  -paste
+
+ "scripts": {
+    "start": "nodemon", }
+
+c fd src > fl index.ts
+>> check if working
+
+paste index,ts 
+
+express cors body-parser cookie-parser compression mongoose
+
+-D @types/express @types/cors @types/body-parser @types/cookie-parser @types/compression @types/mongoose
+
+npm i bcrypt jsonwebtoken
+
+>> create model schema
+
+in video > Helpers for authentication > uthentication controllers
+
+
+
+//multer to be study
+//useReducer
+//Redux
+
+boilerplate
+
+https://www.youtube.com/watch?v=kK_Wqx3RnHk
+
+import React, {useState}
+>
+ const [count, setCount] = useState(0)
+
+function increment(){
+setCount(prevCount => prevCount + 1)
+}
+
+function decrement(){
+setCount(prevCount => prevCount - 1)
+}
+
+<button onClick={decrement}> - <button>
+{count}
+<button onClick={increment}> + <button>
+
+==
+RR RR
+
+redux - provider
+
+root layout and insert <ReduxProvider>
+
+create store
+
+create slice > reducer > actions > 
+|| import ang component na gamitan sa reducer
+
+components > import 
+import { useSelector, useDispatch } from 'react-redux'; || default
+import { RootState } from '@/redux/store';
+import { selectCartCount, selectTotalPrice, removeFromCart } from '@/redux/customerSlice/cartReducer';
+
+>dispatch
+
+loading 
+add to cart 
+multer
+redux
+
+//
+api to redux thunk 
+
+
+axios
+please create a function that get my products from my mongodb using axios , please use my express server api 
+
+this is my product page ||  api controller model route
+
+///update the UsersPage component to use Axios directly within the component to fetch users.
